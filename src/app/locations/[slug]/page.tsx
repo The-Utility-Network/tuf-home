@@ -55,7 +55,7 @@ export default async function LocationPage({ params }: Props) {
                             </p>
 
                             <div className="flex flex-wrap gap-4">
-                                {location.activeSubsidiaries.map((sub, i) => (
+                                {location.activeContributors.map((sub, i) => (
                                     <div key={i} className="flex items-center gap-2 bg-white/5 px-4 py-2 rounded-full border border-white/10">
                                         <div className="w-6 h-6 relative">
                                             <img src={getMedallionUrl(sub)} alt={sub} className="w-full h-full object-contain" />
