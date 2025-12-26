@@ -14,7 +14,7 @@ export default async function Image() {
     const bgBase64 = `data:image/jpeg;base64,${bgData.toString('base64')}`;
 
     // 2. Medallion
-    const medallionData = readFileSync(join(process.cwd(), 'public', 'Medallions', 'TUF-op.png'));
+    const medallionData = readFileSync(join(process.cwd(), 'public', 'Medallions', 'The Utility Foundation Logo.png'));
     const medallionBase64 = `data:image/png;base64,${medallionData.toString('base64')}`;
 
     return new ImageResponse(

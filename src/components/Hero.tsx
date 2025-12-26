@@ -33,7 +33,7 @@ export default function Hero() {
                     <div className="relative group">
                         <div className="absolute inset-0 bg-utility-red/20 blur-3xl rounded-full scale-75 group-hover:scale-100 transition-transform duration-1000" />
                         <img
-                            src="/Medallions/TUF-op.png"
+                            src="/Medallions/The Utility Foundation Logo.png"
                             alt="The Utility Foundation"
                             className="w-40 h-40 md:w-56 md:h-56 object-contain animate-float relative z-10"
                         />

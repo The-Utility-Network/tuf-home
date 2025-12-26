@@ -40,7 +40,7 @@ export default function Footer() {
                             <div className="w-16 h-16 relative group">
                                 <div className="absolute inset-0 bg-utility-red/20 blur-xl rounded-full scale-50 group-hover:scale-100 transition-transform duration-700" />
                                 <Image
-                                    src="/Medallions/TUF-op.png"
+                                    src="/Medallions/The Utility Foundation Logo.png"
                                     alt="The Utility Foundation Logo"
                                     fill
                                     className="object-contain relative z-10"
