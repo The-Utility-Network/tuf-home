@@ -10,7 +10,7 @@ const primaryColor = '#F54029';
 
 export default async function Image() {
     // 1. Hero Background (Base)
-    const bgData = readFileSync(join(process.cwd(), 'public', 'hero-solarpunk.png'));
+    const bgData = readFileSync(join(process.cwd(), 'public', 'osiris', 'hero-bg.jpg'));
     const bgBase64 = `data:image/jpeg;base64,${bgData.toString('base64')}`;
 
     // 2. Medallion

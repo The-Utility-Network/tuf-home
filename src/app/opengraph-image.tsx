@@ -11,7 +11,7 @@ export default async function Image() {
 
     // Background - Conway's Game of Life snapshot (optimized)
     // Background - Conway's Game of Life snapshot (optimized)
-    const bgData = readFileSync(join(process.cwd(), 'public', 'hero-solarpunk.png'));
+    const bgData = readFileSync(join(process.cwd(), 'public', 'osiris', 'hero-bg.jpg'));
     const bgBase64 = `data:image/jpeg;base64,${bgData.toString('base64')}`;
 
     const medallionData = readFileSync(join(process.cwd(), 'public', 'Medallions', 'TUF-op.png'));

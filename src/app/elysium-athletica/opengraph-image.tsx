@@ -9,7 +9,7 @@ export const contentType = 'image/png';
 const THEME = '#f54029';
 
 export default async function Image() {
-    const bgData = readFileSync(join(process.cwd(), 'public', 'hero-solarpunk.png'));
+    const bgData = readFileSync(join(process.cwd(), 'public', 'osiris', 'hero-bg.jpg'));
     const bgBase64 = `data:image/jpeg;base64,${bgData.toString('base64')}`;
 
     const medallionData = readFileSync(join(process.cwd(), 'public', 'Medallions', 'Elysium_opt.png'));

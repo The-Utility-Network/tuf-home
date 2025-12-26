@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="absolute inset-0 z-0">
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 scale-105"
-                    style={{ backgroundImage: 'url(/hero-solarpunk.png)' }}
+                    style={{ backgroundImage: 'url(/osiris/hero-bg.jpg)' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black" />
                 <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(245,64,41,0.1)_0%,transparent_70%)]" />
