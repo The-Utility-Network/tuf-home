@@ -49,7 +49,7 @@ export const LOCATIONS: SEOLocation[] = [
         regulatoryContext: 'We adhere to UN Global Compact standards for corporate responsibility. This node ensures all Foundation assets are compliant with international sanctions and aid regulations.',
         complianceNarrative: 'Our NYC node runs the "SDG Oracle," a smart contract that validates if downstream partner activities (e.g., in Africa or SE Asia) are statistically contributing to specific UN goals before releasing tranche funding.',
         localTokenizationEconomy: 'Impact Bonds, Carbon Offsets, and Educational Credits.',
-        activeContributors: ['The Utility Foundation', 'Ledger1'],
+        activeContributors: ['The Utility Foundation', 'BasaltHQ', 'NFTPD'],
     },
     {
         city: 'Geneva',
@@ -91,7 +91,7 @@ export const LOCATIONS: SEOLocation[] = [
         regulatoryContext: 'The UK\'s advanced social enterprise sector allows TUF to pioneer new "Pay-for-Success" models using smart contracts to act as the impartial adjudicator of outcomes.',
         complianceNarrative: 'The London node aggregates performance data from social programs. If the data shows a 10% reduction in homelessness, the smart contract automatically triggers repayment to the impact investors.',
         localTokenizationEconomy: 'Social Impact Bonds, Green Housing Credits.',
-        activeContributors: ['Ledger1', 'The Utility Foundation'],
+        activeContributors: ['BasaltHQ', 'The Utility Foundation', 'Invisible Enemies'],
     },
     {
         city: 'Lagos',

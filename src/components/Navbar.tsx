@@ -59,9 +59,9 @@ export default function Navbar({ themeColor = '#F54029' }: NavbarProps) {
                         <Link href="/" className="flex items-center gap-4 group">
                             <div className="relative w-10 h-10 transition-transform duration-300 group-hover:scale-110">
                                 <img
-                                    src="/Medallions/The Utility Foundation Logo.png"
+                                    src="/Medallions/TUF-op.png"
                                     alt="The Utility Foundation"
-                                    className="w-full h-full object-contain"
+                                    className="w-full h-full object-cover rounded-full"
                                 />
                             </div>
                             <span className="text-lg font-bold text-white tracking-widest font-mono group-hover:opacity-80 transition-opacity">

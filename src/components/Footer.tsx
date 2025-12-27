@@ -40,10 +40,10 @@ export default function Footer() {
                             <div className="w-16 h-16 relative group">
                                 <div className="absolute inset-0 bg-utility-red/20 blur-xl rounded-full scale-50 group-hover:scale-100 transition-transform duration-700" />
                                 <Image
-                                    src="/Medallions/The Utility Foundation Logo.png"
+                                    src="/Medallions/TUF-op.png"
                                     alt="The Utility Foundation Logo"
                                     fill
-                                    className="object-contain relative z-10"
+                                    className="object-cover rounded-full relative z-10"
                                 />
                             </div>
                             <div>
@@ -130,8 +130,8 @@ export default function Footer() {
                         <h4 className="text-[10px] font-mono tracking-[0.3em] text-gray-600 mb-8 uppercase">Our Leadership</h4>
                         <div className="space-y-6">
                             {[
-                                { name: 'Krishna Patel', title: 'Founder & CEO' },
-                                { name: 'Eric Turner', title: 'Director of Applied Intelligence' },
+                                { name: 'Karishma Bhutani', title: 'Chairwoman' },
+                                { name: 'Krishna Patel', title: 'Founder, The Utility Network' },
                             ].map((member) => (
                                 <div key={member.name} className="flex flex-col group">
                                     <span className="text-white text-sm font-bold group-hover:text-utility-red transition-colors">{member.name}</span>
@@ -162,10 +162,10 @@ export default function Footer() {
                     </div>
 
                     <div className="flex items-center gap-10">
-                        <a href="#" className="text-gray-600 text-[10px] font-mono uppercase tracking-widest hover:text-white transition-colors">
+                        <a href="/privacy" className="text-gray-600 text-[10px] font-mono uppercase tracking-widest hover:text-white transition-colors">
                             Privacy_Protocols
                         </a>
-                        <a href="#" className="text-gray-600 text-[10px] font-mono uppercase tracking-widest hover:text-white transition-colors">
+                        <a href="/terms" className="text-gray-600 text-[10px] font-mono uppercase tracking-widest hover:text-white transition-colors">
                             Terms_of_Service
                         </a>
                     </div>

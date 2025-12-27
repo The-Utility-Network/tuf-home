@@ -1,11 +1,11 @@
 export default function About() {
-    // Foundation + Ledger1 Combined Team
+    // Foundation + BasaltHQ Combined Team
     const leadership = [
         { name: 'Krishna Patel', title: 'Founder & CEO (The Utility Foundation)', image: '/team/member1.png' },
-        { name: 'Eric Turner', title: 'Chief Executive Officer (Ledger1)', image: '/team/member6.png' },
-        { name: 'Michael Milton', title: 'Chief Marketing Officer (Ledger1)', image: '/team/member3.png' },
-        { name: 'Shahir Monjour', title: 'Senior VP, Engineering (Ledger1)', image: '/team/member4.png' },
-        { name: 'John Garcia', title: 'Senior VP, AI Research (Ledger1)', image: '/team/member5.png' },
+        { name: 'Eric Turner', title: 'Chief Executive Officer (BasaltHQ)', image: '/team/member6.png' },
+        { name: 'Michael Milton', title: 'Chief Marketing Officer (BasaltHQ)', image: '/team/member3.png' },
+        { name: 'Shahir Monjour', title: 'Senior VP, Engineering (BasaltHQ)', image: '/team/member4.png' },
+        { name: 'John Garcia', title: 'Senior VP, AI Research (BasaltHQ)', image: '/team/member5.png' },
         { name: 'Milan Joshi', title: 'Founder & CTO (Requiem Electric)', image: '/team/Milan.png' },
         { name: 'Kerul Patel', title: 'CTO (The Utility Foundation)', image: '/team/Kerul.png' },
     ];
@@ -28,7 +28,7 @@ export default function About() {
                             </p>
                             <p>
                                 As a bridge between technology and society, we orchestrate assets from our contributors—such
-                                as Ledger1 and Osiris Protocol—to empower partner initiatives that drive positive
+                                as BasaltHQ and Osiris Protocol—to empower partner initiatives that drive positive
                                 societal change and sustainable growth.
                             </p>
                         </div>

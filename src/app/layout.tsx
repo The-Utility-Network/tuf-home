@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: '/Medallions/TUF-op.png',
+  },
 };
 
 export const viewport: Viewport = {

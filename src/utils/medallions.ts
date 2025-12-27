@@ -5,7 +5,9 @@ export function getMedallionUrl(subsidiaryName: string): string {
     const name = subsidiaryName.toLowerCase().trim();
 
     const mapping: Record<string, string> = {
-        'ledger1': 'Ledger1_opt.png',
+        'basalt hq': 'BasaltM.png',
+        'basalthq': 'BasaltM.png',
+        'ledger1': 'BasaltM.png', // Legacy support
         'requiem electric': 'RE_opt.png',
         'the graine ledger': 'TGL_opt.png',
         'vulcan forge': 'VulcanForge2_opt.png',
@@ -18,6 +20,8 @@ export function getMedallionUrl(subsidiaryName: string): string {
         'the utility foundation': 'Symbol_opt.png',
         'mkvli': 'MKVLI_opt.png',
         'industrial evolution': 'IE_opt.png',
+        'invisible enemies': 'IE_opt.png',
+        'nftpd': 'NFTPD.png',
         'the refrain': 'the_refrain_medallion_opt.png',
         'creative revolution': 'creative_revolution_medallion_opt.png'
     };

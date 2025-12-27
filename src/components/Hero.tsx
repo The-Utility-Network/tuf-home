@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="absolute inset-0 z-0">
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 scale-105"
-                    style={{ backgroundImage: 'url(/osiris/hero-bg.jpg)' }}
+                    style={{ backgroundImage: 'url(/hero-solarpunk.png)' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black" />
                 <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(245,64,41,0.1)_0%,transparent_70%)]" />
@@ -33,9 +33,9 @@ export default function Hero() {
                     <div className="relative group">
                         <div className="absolute inset-0 bg-utility-red/20 blur-3xl rounded-full scale-75 group-hover:scale-100 transition-transform duration-1000" />
                         <img
-                            src="/Medallions/The Utility Foundation Logo.png"
+                            src="/Medallions/TUF-op.png"
                             alt="The Utility Foundation"
-                            className="w-40 h-40 md:w-56 md:h-56 object-contain animate-float relative z-10"
+                            className="w-40 h-40 md:w-56 md:h-56 object-cover rounded-full animate-float relative z-10"
                         />
                     </div>
                 </motion.div>
@@ -66,7 +66,7 @@ export default function Hero() {
 
                     {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-                        <Link href="#impact-categories" className="group relative px-10 py-5 bg-white text-black font-black rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95">
+                        <Link href="#impact" className="group relative px-10 py-5 bg-white text-black font-black rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95">
                             <span className="relative z-10 tracking-widest text-xs uppercase">Explore Initiatives</span>
                             <div className="absolute inset-0 bg-utility-red transform translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
                         </Link>

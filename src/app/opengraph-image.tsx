@@ -11,10 +11,10 @@ export default async function Image() {
 
     // Background - Conway's Game of Life snapshot (optimized)
     // Background - Conway's Game of Life snapshot (optimized)
-    const bgData = readFileSync(join(process.cwd(), 'public', 'osiris', 'hero-bg.jpg'));
+    const bgData = readFileSync(join(process.cwd(), 'public', 'hero-solarpunk.png'));
     const bgBase64 = `data:image/jpeg;base64,${bgData.toString('base64')}`;
 
-    const medallionData = readFileSync(join(process.cwd(), 'public', 'Medallions', 'The Utility Foundation Logo.png'));
+    const medallionData = readFileSync(join(process.cwd(), 'public', 'Medallions', 'TUF-op.png'));
     const medallionBase64 = `data:image/png;base64,${medallionData.toString('base64')}`;
 
     return new ImageResponse(
@@ -175,7 +175,7 @@ export default async function Image() {
                     {/* Theme Ring */}
                     <div style={{ position: 'absolute', inset: 0, borderRadius: '50%', border: `4px solid ${primaryColor}`, boxShadow: `0 0 50px ${primaryColor}60`, display: 'flex' }} />
 
-                    <img src={medallionBase64} width={700} height={700} style={{ position: 'relative', width: 700, height: 700, objectFit: 'contain', padding: 30 }} />
+                    <img src={medallionBase64} width={700} height={700} style={{ position: 'relative', width: 700, height: 700, objectFit: 'cover', borderRadius: '50%' }} />
                 </div>
 
                 {/* GLASS FRAME - TOP */}
