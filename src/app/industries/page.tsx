@@ -5,8 +5,8 @@ import ImpactNexus from '@/components/ImpactNexus';
 import { INDUSTRIES } from '@/data/seo';
 
 export const metadata = {
-    title: 'Global Impact Areas | The Utility Foundation',
-    description: 'We don\'t just offer software; we offer structural transformation across 15 critical impact categories.',
+    title: 'Global Initiatives | The Utility Foundation',
+    description: 'We don\'t just offer software; we offer structural transformation across 15 critical initiative categories.',
 };
 
 export default function IndustriesPage() {
@@ -16,12 +16,12 @@ export default function IndustriesPage() {
 
             <main className="pt-32 pb-24 px-6 max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                    <span className="section-heading">FOUNDATION_NETWORK</span>
+                    <span className="section-heading">FOUNDATION_INITIATIVES</span>
                     <h1 className="text-5xl md:text-7xl font-bold mt-4 mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-500 pb-2">
-                        Global Impact <br /> Areas
+                        Global <br />Initiatives
                     </h1>
                     <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                        Explore our 15 key categories of engagement. Each node represents a structural transformation powered by automation and tokenization.
+                        Explore our 15 key initiative categories. Each node represents a structural transformation powered by automation and tokenization.
                     </p>
                 </div>
 

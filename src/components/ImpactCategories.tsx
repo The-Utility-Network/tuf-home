@@ -193,9 +193,9 @@ export default function ImpactCategories() {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <span className="section-heading">GLOBAL INITIATIVES</span>
-                    <h2 className="section-title mt-4">15 Key Impact Categories</h2>
+                    <h2 className="section-title mt-4">15 Key Initiative Categories</h2>
                     <p className="text-gray-400 mt-4 max-w-3xl mx-auto">
-                        Explore our structural engagement model across 15 critical sectors.
+                        Explore our structural engagement model across 15 critical initiative areas.
                     </p>
                 </div>
 
@@ -249,9 +249,7 @@ export default function ImpactCategories() {
                         Do you represent an organization in one of these fields?
                     </p>
                     <a
-                        href="https://theutilityfoundation.org/partner-program/"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href="/contact"
                         className="btn-primary"
                     >
                         BECOME A PARTNER

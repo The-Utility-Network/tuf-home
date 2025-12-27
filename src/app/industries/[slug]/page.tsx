@@ -78,14 +78,14 @@ export default async function IndustryPage({ params }: Props) {
             <main className="pt-32 pb-24 px-6 max-w-7xl mx-auto">
                 <div className="mb-12">
                     <Link href="/industries" className="text-sm text-gray-500 hover:text-white transition-colors flex items-center gap-2">
-                        ← Back to Industries
+                        ← Back to Initiatives
                     </Link>
                 </div>
 
                 {/* Hero Section */}
                 <div className="grid lg:grid-cols-2 gap-16 mb-24">
                     <div>
-                        <span className="section-heading text-utility-red">INDUSTRY FOCUS</span>
+                        <span className="section-heading text-utility-red">INITIATIVE FOCUS</span>
                         <h1 className="text-5xl md:text-7xl font-bold mt-4 mb-8 leading-tight">
                             {industry.title}
                         </h1>
